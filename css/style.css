@@ -1,0 +1,79 @@
+body {
+
+    font-family: "Ancizar Serif", serif;
+    font-optical-sizing: auto;
+
+    background-color: #F5EDF0;
+}
+
+.multipleSelect2 {
+    width: 300px;
+}
+
+
+
+.card {
+    transition: background-color 0.7s;
+}
+
+.card:hover {
+    background-color: #8ACBDE;
+
+    color: #222222;
+    transition: background-color 0.7s;
+}
+
+
+.gradi {
+    /* Градієнтне фонове заповнення тексту */
+    background-image: linear-gradient(to right, #77bcdc, #f1fbff);
+ 
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    color: transparent;
+}
+
+.whitee {
+    background-color: #F5EDF0;
+}
+
+.bluee {
+    background-color: #368200;
+    color: #F5EDF0
+}
+
+.pinkee {
+    background-color: #AB006F;
+    color: #F5EDF0;
+}
+
+.pinkee2{
+    background-color: #FF69B4;
+    color: #F5EDF0;
+}
+
+.yelowee {
+    background-color: #e4a400;
+    color: #AB006F
+}
+
+.blackee {
+    background-color: #222222;
+    color: #F5EDF0;
+}
+
+.disablee {
+    background-color: #989898;
+    color: #222222;
+}
+
+.prim {
+    background-color: #3C8CB2;
+    color: #222222;
+}
+
+.sec {
+    background-color: #2C5375;
+    color: #222222;
+}

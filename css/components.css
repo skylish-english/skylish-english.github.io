@@ -1,0 +1,94 @@
+button {
+    background-color: #AB006F;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 100px;
+    border-width: 1px;
+    border-color: #222222;
+    transition: background-image 0.4s ease;
+    transition: background-color 0.4s;
+    width: fit-content;
+   
+  }
+  
+  button:hover {
+  
+    cursor:pointer;
+    background-color: #FF69B4;
+    transition: background-color 0.4s;
+    color: white
+  }
+  
+  button:active {
+    filter: brightness(80%);
+  }
+
+  .file {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 100px;
+    border-width: 1px;
+    border-color: #222222;
+    transition: background-image 0.4s ease;
+    transition: background-color 0.4s;
+    width: 50vh;
+   
+  }
+  
+  .file:hover {
+  
+    cursor:pointer;
+    background-color: #e0e0e0;
+    transition: background-color 0.4s;
+
+  
+  
+    color: #222222;
+    border-color: #222222;
+  }
+  
+  .file:active {
+    filter: brightness(80%);
+
+  }
+
+.img-container img {
+  max-width: 100%; 
+  height: auto;   
+}
+
+.button{
+  background-color: black;
+
+  color: white;
+
+  padding: 10px 20px;
+
+  border-radius: 100px;
+
+  border-width: 1px;
+  border-color: #222222;
+  transition: background-image 0.4s ease;
+
+  transition: background-color 0.4s;
+  width: fit-content;
+}
+.button:hover {
+  
+  cursor:pointer;
+  background-color: #e0e0e0;
+  transition: background-color 0.4s;
+
+
+
+  color: #222222;
+  border-color: #222222;
+}
+
+.button:active {
+  filter: brightness(80%);
+
+}
+
+
