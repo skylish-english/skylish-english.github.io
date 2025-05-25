@@ -92,3 +92,56 @@ button {
 }
 
 
+.price-card {
+  background: #e0e0e0; 
+  border-radius: 20px; 
+  padding: 20px;
+  width: 280px;
+  box-shadow: 0 4px 12px rgba(199, 21, 133, 0.3);
+  color: #AB006F;
+  text-align: left;
+  margin: 20px auto;
+  transition: transform 0.3s ease;
+}
+
+.price-card:hover {
+  transform: scale(1.05);
+}
+
+.price-card h2 {
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin: 10px 0 20px;
+  color: #AB006F; 
+}
+
+.price-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px;
+  color: #444;
+}
+
+.price-card ul li {
+  margin-bottom: 8px;
+}
+
+.price-card button {
+  background-color: #C71585; 
+  border: none;
+  border-radius: 12px;
+  padding: 12px 30px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.price-card button:hover {
+  background-color: #FF69B4;
+  color:#222222 
+}

@@ -23,16 +23,15 @@ body {
     transition: background-color 0.7s;
 }
 
-
+/* 
 .gradi {
-    /* Градієнтне фонове заповнення тексту */
     background-image: linear-gradient(to right, #77bcdc, #f1fbff);
  
     -webkit-background-clip: text;
     background-clip: text;
 
     color: transparent;
-}
+} */
 
 .whitee {
     background-color: #F5EDF0;
@@ -65,15 +64,5 @@ body {
 
 .disablee {
     background-color: #989898;
-    color: #222222;
-}
-
-.prim {
-    background-color: #3C8CB2;
-    color: #222222;
-}
-
-.sec {
-    background-color: #2C5375;
     color: #222222;
 }
